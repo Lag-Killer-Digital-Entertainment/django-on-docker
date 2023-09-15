@@ -1,0 +1,12 @@
+{
+  "app_name_slug": "",
+  "production_db_name": "",
+  "production_db_password": "",
+  "production_db_user": "",
+  "project_slug_name": "",
+  "python_docker": "3.11-alpine3.18",
+  "version_django": ">=4,<5",
+  "version_django_rest_framework": ">=3,<4",
+  "version_gunicorn": ">=21,<22",
+  "version_psycopg2_binary": ">=2,<3"
+}

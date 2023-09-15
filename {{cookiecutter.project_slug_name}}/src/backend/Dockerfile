@@ -1,5 +1,5 @@
 # pull official base image
-FROM python:3.11.4-slim-buster
+FROM python:{{cookiecutter.python_docker}}
 
 # set work directory
 WORKDIR /usr/src/app

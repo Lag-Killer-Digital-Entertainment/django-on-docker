@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "{{cookiecutter.version_django}}"
+psycopg2-binary = "{{cookiecutter.version_psycopg2_binary}}"
+djangorestframework = "{{cookiecutter.version_django_rest_framework}}"
+gunicorn = "{{cookiecutter.version_gunicorn}}"
+
+[dev-packages]
+ruff = "*"
+black = "*"

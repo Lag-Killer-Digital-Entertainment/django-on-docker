@@ -3,10 +3,10 @@ from django.urls import path
 from django.conf import settings
 from django.conf.urls.static import static
 
-from upload.views import image_upload
+from upload.views import {{cookiecutter.app_name_slug}}
 
 urlpatterns = [
-    path("", image_upload, name="upload"),
+    path("", {{cookiecutter.app_name_slug}}, name="upload"),
     path("admin/", admin.site.urls),
 ]
 
